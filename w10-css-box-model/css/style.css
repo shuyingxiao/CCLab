@@ -1,0 +1,54 @@
+body,
+h1,
+h3,
+p {
+    margin: 0;
+}
+
+.description {
+    /*background-color: darkcyan;*/
+    font-size: larger;
+    color: antiquewhite;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.doc-title {
+    margin: 20px;
+
+}
+
+.highlight {
+    color: yellowgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title {
+    color: cadetblue;
+    /*background-color: blanchedalmond;*/
+    margin: 10px 0;
+}
+
+.box {
+    background-color: white;
+    width: 300px;
+    height: 150px;
+    margin: 20px;
+    padding: 5px;
+
+    border: 5px solid cornflowerblue;
+    border-style: dotted;
+}
+
+#special-box {
+    background-color: yellowgreen;
+    /*visibility: hidden*/
+    ;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+
+
+}

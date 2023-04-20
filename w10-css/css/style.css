@@ -1,0 +1,17 @@
+body {
+    background: cornsilk;
+
+}
+
+h1 {
+    color: burlywood;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#content1 {
+    color: cadetblue;
+}
+
+#content2 {
+    color: cornflowerblue;
+}
