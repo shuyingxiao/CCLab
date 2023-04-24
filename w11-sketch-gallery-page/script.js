@@ -6,8 +6,6 @@ function setup() {
   //this p5 canvas is added to the container
   //so that we only manipulate the container not the canvas
   canvas.parent("canvas-container");
-
-
   background(bgcolor);
 }
 
@@ -50,8 +48,6 @@ function draw() {
   }
 
   //instruction
-
-
 
   console.log(key)
 
