@@ -1,0 +1,82 @@
+html,
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+canvas {
+  display: block;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+#canvas-container {
+  position: absolute;
+  top: 170px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+#descriptions {
+  width: 400px;
+  height: 70px;
+  position: static;
+  margin: auto;
+
+
+}
+
+#title {
+  font-weight: 100px;
+  position: static;
+  margin: auto;
+}
+
+a {
+  color: #c1f9eb;
+  font-weight: 400px;
+
+
+}
+
+a:hover {
+  text-decoration: underline;
+  color: crimson;
+}
+
+.highlight {
+  font-weight: bold;
+  color: cadetblue;
+}
+
+.paragraphs1 {
+  padding: 20px;
+  height: 120px;
+  width: 400px;
+  position: static;
+  margin: auto;
+
+}
+
+.paragraphs2 {
+  padding: 20px;
+  height: 100px;
+  width: 400px;
+  position: static;
+  margin: auto;
+
+}
+
+.paragraphs3 {
+  padding: 20px;
+  height: 150px;
+  width: 400px;
+  position: static;
+  margin: auto;
+
+}

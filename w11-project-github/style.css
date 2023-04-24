@@ -11,13 +11,13 @@ canvas {
 }
 
 .title-text {
-  color: aliceblue;
+  color: darkblue;
   position: absolute;
-  top: 50%;
+  top: 47%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-#p5.canvas {
+#p5-canvas {
   z-index: -1;
 }
