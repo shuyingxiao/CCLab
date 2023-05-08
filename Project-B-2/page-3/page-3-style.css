@@ -1,0 +1,175 @@
+html,
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+#title-box {
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  z-index: 5;
+
+}
+
+#firstBox {
+  width: 500px;
+  /* 设置盒子宽度 */
+  height: 100vh;
+  /* 设置盒子高度 */
+  /* background-color: green; */
+  /* 设置背景色 */
+  position: relative;
+  writing-mode: vertical-lr;
+  /* 设置为相对定位 */
+  left: 100px;
+  top: 0;
+  /* 初始时，盒子不偏移 */
+  transition: transform 0.5s ease-out;
+  /* 设置动画效果 */
+  overflow: visible;
+  z-index: 1;
+}
+
+#image3 {
+  position: absolute;
+  top: 400px;
+  left: 100px;
+}
+
+#secondBox {
+  /* background-color: brown; */
+  position: absolute;
+  height: 600px;
+
+  left: 40%;
+  top: 400px;
+  letter-spacing: 20px;
+  font-size: 30px;
+  color: white;
+  z-index: 1;
+
+}
+
+#image2 {
+  position: absolute;
+  width: 600px;
+  top: 700px;
+  left: 900px;
+}
+
+.sansserif {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#thirdBox {
+  /* background-color: darkgoldenrod; */
+  font-size: 40px;
+  height: 100vh;
+  position: absolute;
+
+  top: 10%;
+  left: 80%;
+  overflow: visible;
+  letter-spacing: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: darkorange;
+
+}
+
+#fourthBox {
+  background-color: aqua;
+  position: relative;
+  top: 0;
+  left: 0;
+
+  font-size: 40px;
+  height: 100vh;
+  text-align: center;
+  letter-spacing: 20px;
+
+  z-index: 5;
+
+}
+
+#fifthBox {
+  color: white;
+  font-size: 200px;
+  position: relative;
+  top: 200px;
+  left: 20px;
+  font-weight: 500px;
+
+  letter-spacing: 100px;
+
+}
+
+.vertical-text {
+
+  writing-mode: vertical-lr;
+
+}
+
+
+
+.text-box {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 30px;
+
+}
+
+#return-button {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 100%;
+  background-color: darkolivegreen;
+  font-size: 20px;
+  width: 60px;
+}
+
+a:hover {
+  color: white;
+}
+
+/* 隐藏文本溢出 */
+.text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: white;
+  font-size: 30px;
+}
+
+/* 显示隐藏的文本 */
+.text:hover {
+  overflow: visible;
+  white-space: normal;
+  color: blue;
+  font-size: 70px;
+}
+
+.sansserif:hover {
+  overflow: visible;
+  white-space: normal;
+  color: blue;
+}
+
+#image1 {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  height: 60%;
+  left: 0;
+  z-index: -1;
+}

@@ -1,0 +1,184 @@
+html,
+body {
+
+  margin: 0;
+  padding: 0;
+  background-color: black
+}
+
+canvas {
+  display: block;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.title-box {
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 20px;
+
+}
+
+
+
+#firstBox {
+  position: absolute;
+  top: 200px;
+  left: 30%;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 30px;
+}
+
+
+
+
+#circular-text {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 1px solid white;
+  color: white;
+  position: relative;
+  font-size: 40px;
+  top: 10%;
+  left: 42.5vw;
+}
+
+.text-box {
+  color: white;
+  font-size: 40px;
+
+}
+
+#image-box {
+  top: 1225px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  z-index: 0;
+
+}
+
+#circular-text span {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  margin-left: 100px;
+  transform-origin: center -0.5em;
+  transform: translate(400px);
+
+}
+
+#circular-text span:nth-child(1) {
+  transform: rotateZ(0deg);
+}
+
+#circular-text span:nth-child(2) {
+  transform: rotateZ(36deg);
+}
+
+#circular-text span:nth-child(3) {
+  transform: rotateZ(72deg);
+}
+
+#circular-text span:nth-child(4) {
+  transform: rotateZ(108deg);
+}
+
+#circular-text span:nth-child(5) {
+  transform: rotateZ(144deg);
+}
+
+
+#circular-text span:nth-child(6) {
+  transform: rotateZ(180deg);
+}
+
+#circular-text span:nth-child(7) {
+  transform: rotateZ(216deg);
+}
+
+#circular-text span:nth-child(8) {
+  transform: rotateZ(252deg);
+}
+
+#circular-text span:nth-child(9) {
+  transform: rotateZ(288deg);
+}
+
+#circular-text span:nth-child(10) {
+  transform: rotateZ(324deg);
+}
+
+#imageone {
+  position: relative;
+  top: 0px;
+  left: 40%;
+  width: 400px;
+}
+
+#imagetwo {
+  width: 200px;
+  position: relative;
+  left: 20%;
+  top: 0;
+}
+
+.highlight {
+  font-style: italic;
+  color: darkgreen;
+}
+
+.vertical-text-box span {
+  background-color: blue;
+  position: relative;
+  writing-mode: vertical-lr;
+  color: whitesmoke;
+  font-size: 30px;
+  height: 400px;
+
+
+
+}
+
+#spacing-text {
+  letter-spacing: 20px;
+}
+
+#lastbox {
+  writing-mode: vertical-lr;
+  color: whitesmoke;
+  height: 800px;
+  position: relative;
+  letter-spacing: 80px;
+  font-size: 80px;
+  top: 0;
+  left: 42%
+}
+
+#return-button {
+  position: relative;
+  width: 60px;
+  left: 50%;
+  top: 0;
+
+  transform: translate(-50%, 0);
+  background-color: darkolivegreen;
+  font-size: 20px;
+
+}
+
+a:hover {
+  color: white;
+}

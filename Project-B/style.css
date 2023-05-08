@@ -1,9 +1,72 @@
 html,
 body {
   margin: 0;
-  padding: 0;
+  padding: 0px;
+  font-family: 'Noto Serif TC', serif;
+  background-color: black;
+
 }
 
 canvas {
   display: block;
+}
+
+.title-box {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 20px;
+}
+
+.box {
+  background-color: black;
+  border: 0.5px solid bisque;
+  border-style: solid;
+  color: bisque;
+  width: 300px;
+  height: 400px;
+  margin: 15px;
+}
+
+.second-title-box {
+  background-color: bisque;
+  font-size: medium;
+  color: black;
+}
+
+.flexbox-container {
+  width: windowWidth;
+
+  background-color: blue;
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: center;
+
+  justify-content: center;
+}
+
+#special-box {
+  background-color: bisque;
+  /*visibility: hidden*/
+  ;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+
+}
+
+.flexbox-container {
+  display: flex;
+  align-items: flex-start;
+  height: 400px;
+}
+
+.flexbox-container>*:first-child {
+  align-self: stretch;
+}
+
+.flexbox-container .selected {
+  
+  align-self: center;
+  background-color: aquamarine;
 }

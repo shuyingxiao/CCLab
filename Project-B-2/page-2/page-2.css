@@ -1,0 +1,74 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: bisque;
+
+}
+
+canvas {
+  display: block;
+}
+
+
+#title-box {
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  z-index: 5;
+
+}
+
+#image1 {
+  position: absolute;
+  top: 130px;
+  left: 0;
+  width: 100%;
+  z-index: 0;
+
+}
+
+.containerOne {
+
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 50px;
+  margin: 0;
+  top: 0;
+  left: 0;
+  height: 100px;
+  position: relative;
+  background-color: bisque;
+  color: black;
+  font-size: 30px;
+  text-align: right;
+
+  line-height: 100px;
+  z-index: 5;
+}
+
+#containerTwo {
+  margin: 20px;
+  background-color: beige;
+  position: relative;
+  top: 0;
+  text-align: center;
+  font-size: 30px;
+  line-height: 100px;
+
+
+}
+
+#return-button {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 100%;
+  background-color: greenyellow;
+  font-size: 20px;
+  width: 60px;
+}
+
+a:hover {
+  color: white;
+}
